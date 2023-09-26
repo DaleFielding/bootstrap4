@@ -283,6 +283,7 @@
         </div>
         <!-- /.features -->
 
+        <!-- Modal -->
         <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -345,34 +346,53 @@
                 </div>
             </div>
         </div>
+        <!--/.modal -->
 
         <!-- Table -->
-        <section>
-            <h2 class="text-uppercase">Monthy Favorites:</h2>
-            <table class="table table-bordered">
-                <tr>
-                    <th>Name</th>
-                    <th>Origin</th>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum</td>
-                </tr>
-            </table>
-        </section>
+        <div class="container-wrapper favourites-container">
+            <div class="container-fluid table-container content-container">
+                <section>
+                    <h2 class="text-uppercase">
+                        <i class="fa fa-star d-none d-md-inline"></i> Monthly
+                        Favourites:
+                    </h2>
+                    <hr class="block-divider block-divider--short" />
+                    <table class="table table-bordered table-hover table-dark">
+                        <tr class>
+                            <th scope="col" class="col-6 col-md-4">Name</th>
+                            <th scope="col" class="col-6 col-md-4">Origin</th>
+                            <th scope="col" class="d-none d-md-block">
+                                Flavours
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>Dolor sit</td>
+                            <td class="d-none d-md-block">Amet, consectetur</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>Dolor sit</td>
+                            <td class="d-none d-md-block">Amet, consectetur</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>Dolor sit</td>
+                            <td class="d-none d-md-block">Amet, consectetur</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>Dolor sit</td>
+                            <td class="d-none d-md-block col-md-12">
+                                Amet, consectetur
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
         <!-- /.table -->
+
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

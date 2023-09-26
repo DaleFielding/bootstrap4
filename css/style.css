@@ -149,7 +149,21 @@ body {
     color: #f05f40;
 }
 
-/* Page headers */
+/* Table */
+
+.favourites-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.table,
+.table-bordered td,
+.table-bordered th {
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Page header */
 
 .page-header {
     margin-bottom: 0;
@@ -203,4 +217,8 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+.fa-star {
+    color: #eec802;
 }
